@@ -7,11 +7,11 @@
   }
   
   .ce-chat-list {
-    background-color: rgb(240, 240, 240) !important;
+    background-color: rgb(238, 165, 193) !important;
   }
   
   .ce-chats-container {
-    background-color: rgb(240, 240, 240) !important;
+    background-color: rgb(247, 199, 229) !important;
   }
   
   .ce-active-chat-card {
@@ -21,7 +21,7 @@
   }
   
   .ce-chat-subtitle-text {
-    color: #595959 !important;
+    color: #e62121 !important;
   }
   
   .ce-chat-form-container {
@@ -30,34 +30,34 @@
   
   .ce-text-input {
     border-radius: 6px !important;
-    border: 1px solid #3b2a50 !important;
+    border: 1px solid #cab3e7 !important;
   }
   
   .ce-primary-button {
     border-radius: 6px !important;
-    background-color: #7554a0 !important;
+    background-color: #0ec9eb !important;
     position: relative;
     bottom: 1px;
   }
   
   .ce-danger-button {
-    background-color: white !important;
+    background-color: rgb(255, 250, 250) !important;
     border-radius: 22px !important;
   }
   
   .ce-settings {
-    background-color: rgb(240, 240, 240) !important;
+    background-color: rgb(126, 233, 27) !important;
   }
   
   .ce-autocomplete-input {
     border-radius: 6px !important;
-    border: 1px solid #3b2a50 !important;
+    border: 1px solid #e8ddf5 !important;
   }
   
   .ce-autocomplete-options {
     border-radius: 6px !important;
     border: 1px solid #3b2a50 !important;
-    background-color: white !important;
+    background-color: rgb(167, 161, 161) !important;
   }
   
   .ce-chat-settings-container {
@@ -74,7 +74,7 @@
     height: 100%;
     width: 100%;
     overflow: scroll;
-    background-color: rgb(241, 245, 11);
+    background-color: rgb(242, 245, 82);
   }
   
   .chat-title-container {
@@ -84,7 +84,7 @@
   }
   
   .chat-title {
-    color: #f00cf8;
+    color: #f30889;
     font-weight: 800;
     font-size: 24px;
   }
@@ -112,7 +112,7 @@
     width: 44px;
     height: 44px;
     border-radius: 22px;
-    color: white;
+    color: rgb(7, 223, 194);
     text-align: center;
     background-repeat: no-repeat;
     background-position: center;
@@ -158,7 +158,7 @@
     bottom: 0px;
     width: calc(100% - 36px);
     padding: 18px;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(61, 233, 190);
   }
   
   .message-form {
@@ -171,7 +171,7 @@
   .message-input {
     height: 40px;
     width: calc(100% - 132px);
-    background-color: white;
+    background-color: rgb(248, 248, 248);
     border: 1px solid white;
     padding: 0px 18px;
     outline: none;
@@ -179,17 +179,21 @@
   }
   
   .image-button {
-    cursor: pointer;
-    padding: 0px 12px;
     height: 100%;
+    cursor: pointer;
+    padding: 0px 18px;
+    margin-right: 10px;
+    background-color: #f70cd7;
+    border: 1px solid rgb(223, 27, 197);
   }
   
   .send-button {
-    height: 42px;
-    background-color: white;
-    border: 1px solid white;
+    height: 25px;
+    background-color: rgb(37, 209, 143);
+    border: 1px solid rgb(27, 223, 158);
     padding: 0px 18px;
     cursor: pointer;
+    margin-left: 15px;
   }
   
   .send-icon {
@@ -218,7 +222,7 @@
     height: 100vh;
       width: 100%;
     background: rgb(245, 17, 188);
-    background: linear-gradient(90deg, rgba(117,84,160,1) 7%, rgba(117,84,160,1) 17%, rgba(106,95,168,1) 29%, rgba(99,103,174,1) 44%, rgba(87,116,184,1) 66%, rgba(70,135,198,1) 83%, rgba(44,163,219,1) 96%, rgba(22,188,237,1) 100%, rgba(0,212,255,1) 100%);  
+    background: linear-gradient(90deg, rgb(58, 201, 189) 7%, rgb(45, 133, 160) 17%, rgb(14, 223, 101) 29%, rgb(202, 89, 236) 44%, rgb(14, 82, 241) 66%, rgb(123, 10, 146) 83%, rgb(30, 250, 10) 96%, rgb(213, 240, 63) 100%, rgb(208, 255, 0) 100%);  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -230,7 +234,7 @@
       margin: 0 auto;
     padding: 1.5rem 2rem;
     border-radius: 0.2rem;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.836);
     border: none;
     width: 90%;
     display: block;
@@ -246,17 +250,17 @@
   
   .title {
     text-align: center;
-    color: white;
+    color: rgb(231, 109, 176);
     margin-bottom: 30px;
     width: 100%;
     font-size: 2.3em;;
   }
   
   .button {
-    border-radius: 4px;
+    border-radius: 16px;
     border: none;
-    background-color: white;
-    color: black;
+    background-color: rgb(13, 209, 150);
+    color: rgb(240, 12, 145);
     text-align: center;
     text-transform: uppercase;
     font-size: 22px;
